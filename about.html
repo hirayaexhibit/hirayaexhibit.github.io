@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="logo">Hiraya Exhibit</div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="index.html" class="active">Gallery</a>
+            </li>
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+            <li>
+                <a href="ContactUs.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+        <section class="about" id="about">
+
+            <h1 class="exhibit"> About <span class="auto-input"></span></h1>
+                
+        
+            <div class="row">
+        
+                <div class="video-container">
+                    <video src="videos/aboutvid3.mp4" loop autoplay muted></video>
+                    <h3>Hope</h3>
+                </div>
+        
+                <div class="content">
+                    <p>The Hiraya Exhibit, made in 2022, showcases the landscape of young Filipino students of the Technological Institute of the Philippines - QC Campus. In the different fields of art, Traditional arts that encompasses drawing, sketching, and painting; Photography and Modeling. The Hiraya Exhibit was made by 16 students who wanted to showcase their talents and message to the people who will visit the exhibit, with one nurture goal, is to open the eyes of many and give a message through the work of art.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+    
+                <div class="video-container">
+                    <video src="videos/aboutvid1.mp4" loop autoplay muted></video>
+                    <h3>Vision</h3>
+                </div>
+        
+                <div class="content">
+                    <h3>Hiraya Exhibit</h3>
+                    <p>Hiraya Exhibit, an exhibit that showcases the different landscapes made by different artists at their young age.  Hiraya showcases one’s hope, dreams and aspirations with the connection of social realism, would give Hiraya exhibit a one theme that wanted to be expressed to the people who will see the exhibit. Which is, how messy the society is right now, the landscapes showcased by the different artists would be their hope that there is still a chance for a better society in the future. 
+                    </p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+                
+                <div class="video-container">
+                    <video src="videos/aboutvid2.mp4" loop autoplay muted></video>
+                    <h3>Dreams</h3>
+                </div>
+        
+                <div class="content">
+                    <h3>Social Realism</h3>
+                    <p>The Hiraya Exhibit would use social realism to depict the reality of the society we live in today, to open the eyes of the blind, and be open-minded with the things that are happening in our society nowadays by using a figurative and realistic images of the “masses”, which encompasses the lower, and working classes, labor unionists, and politically disenfranchised.  More specifically, the main issue Hiraya exhibit was poverty, in which it depicts the sad reality of Filipinos, especially to the low class Filipinos or poor Filipinos.
+                    </p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+        
+        
+            </div>
+        
+        </section>
+    
+        <section class="team" id="team">
+            <button class="boton">MEET THE MEMBERS</button>
+        </section>
+        
+    
+            
+    
+            
+        <script type="index/javascript" src="index.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+        <script>
+            var typed = new Typed(".auto-input", {
+                strings:["Us","Hiraya Exhibit","Social Realism"],
+                typeSpeed: 60,
+                backSpeed: 60,
+                loop:true
+            });
+        </script>
+        
+        <script>
+            var typed = new Typed(".second-input", {
+                strings:["Website Committee","Modeling Committee","Traditional Arts Committee","Photography Committee"],
+                typeSpeed: 60,
+                backSpeed: 60,
+                loop:true
+            });
+        </script>
+</body>
+
+<script>
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+    }
+</script>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/traditionalarts.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0e31c99f1a.js" crossorigin="anonymous"></script>
+        <title>Traditional Arts</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">Hiraya Exhibit</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="active">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="whole">
+            <div class="title">
+                <h2>Traditional Art</h2>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="card card1">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/AQUINO.jpeg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="text">Esquio</p>
+                                    <p class="author"><span><ion-icon name="brush-outline"></ion-icon></span> Olan Aquino and Philip Crisostomo</p>
+                                    <p>"Esquio" was based on an urban place in Baguio City. We just decided to change and add a little work of ourselves. We chose to work with this idea because we thought that we also need to appreciate this kind of place. The idea of imagining these places was extraordinary. From the mountains, the buildings, and through the houses that were stuck together. Visible clouds and birds fly freely. We love to show people the beauty of urban places.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/PALASANTINGAN.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="text">Palasangtingan</p>
+                                    <p class="author"><span><ion-icon name="brush-outline"></ion-icon></span>Paulyn Clarrise Catolos</p>
+                                    <p>The "Palasangtingan" simply means aesthetic. The Student with prosthetic legs, where it is shown that disability is not an obstacle so that we can make ourselves aware of new abilities that our country can be proud of. Second is the magnifying glass that has a reflected image of the buildings, even though the focus of its glass is the scenery of Greenland. This is simply the definition of progress in a place that we cannot deny that there are many changes happening nowadays. Third is the butterfly that lands on the eye, which symbolizes the hope of manifesting the ability that we can see in ourselves even though there are many changes in the environment and in future generations. Last but not the least is the puzzle of buildings, which presents the construction of development. It reminds everyone that progress does not just happen in an easy process, it takes pains to plan and build.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/SIMPLICITY.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="text">Simplicity</p>
+                                    <p class="author"><span><ion-icon name="brush-outline"></ion-icon></span>Lloyd James De Guia</p>
+                                    <p>A simple view of a certain city. Not everything needs to be lavishly colorful, the monotone black and white and one’s own imagination are all it matters for something to be beautiful. After all, the most beautiful always start simple and small.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>HIRAYA EXHIBIT</h3>
+                <p>Hiraya Exhibit, an exhibit that showcases the different landscapes made by different artists at their young age.  Hiraya showcases one’s hope, dreams and aspirations with the connection of social realism, would give Hiraya exhibit a one theme that wanted to be expressed to the people who will see the exhibit.</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy;2023 HirayaExhibit</p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function(){
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+
+    </body>
+</html>

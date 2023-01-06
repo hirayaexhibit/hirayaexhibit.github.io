@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/modeling.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0e31c99f1a.js" crossorigin="anonymous"></script>
+        <title>Modeling</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">Hiraya Exhibit</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="active">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="whole">
+            <div class="title">
+                <h2>MODELING</h2>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="card card1">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/The-Modern-Reality.JPG">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="text">THE MODERN REALITY</p>
+                                    <p class="author"><span><ion-icon name="hammer-outline"></ion-icon></span> Danielle Marie Altoveros and Keira Iria Dela Cruz</p>
+                                    <p>With a touch of social realism, the artists chose to contrast two worlds by creating a cityscape that depicts an enriching city with buildings, busy people, and money flowing, as well as a world with overcrowded homes, limited or no access to basic necessities, and people striving to do better in the slums. This model addresses the societal reality that not everyone has an equal opportunity to experience a lavish lifestyle everyone day.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/Castro-Model.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="text">DAGKO NGA MGA BILDING</p>
+                                    <p class="author"><span><ion-icon name="hammer-outline"></ion-icon></span>Julia Mari Castro and Sweet Hilary Castro</p>
+                                    <p>This artwork was inspired from the Memorial Circle of Quezon City and through the glimpse of my imagination.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>HIRAYA EXHIBIT</h3>
+                <p>Hiraya Exhibit, an exhibit that showcases the different landscapes made by different artists at their young age.  Hiraya showcases one’s hope, dreams and aspirations with the connection of social realism, would give Hiraya exhibit a one theme that wanted to be expressed to the people who will see the exhibit.</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy;2023 HirayaExhibit</p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function(){
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+
+    </body>
+</html>
